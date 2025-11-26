@@ -1,0 +1,12 @@
+go.work
+go.work.sum
+
+/vendor/
+
+*.test
+
+*.out
+
+.idea/
+*.iml
+*.xml

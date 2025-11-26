@@ -1,0 +1,9 @@
+CREATE TABLE wallets (
+    wallet_id UUID   NOT NULL PRIMARY KEY,
+    balance   BIGINT NOT NULL CHECK (balance >= 0)
+);
+
+INSERT INTO wallets (wallet_id, balance) VALUES
+    ('00000000-0000-0000-0000-000000000001', 1000),
+    ('00000000-0000-0000-0000-000000000002', 1000)
+ON CONFLICT (wallet_id) DO NOTHING;
