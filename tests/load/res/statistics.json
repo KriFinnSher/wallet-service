@@ -1,0 +1,50 @@
+{
+  "/api/v1/wallet GET" : {
+    "transaction" : "/api/v1/wallet GET",
+    "sampleCount" : 5000,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 2.6226,
+    "medianResTime" : 2.0,
+    "minResTime" : 1.0,
+    "maxResTime" : 49.0,
+    "pct1ResTime" : 4.0,
+    "pct2ResTime" : 5.0,
+    "pct3ResTime" : 9.0,
+    "throughput" : 167.19612104999166,
+    "receivedKBytesPerSec" : 29.679564715348604,
+    "sentKBytesPerSec" : 27.757168533690017
+  },
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 10000,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 4.640000000000011,
+    "medianResTime" : 4.0,
+    "minResTime" : 1.0,
+    "maxResTime" : 262.0,
+    "pct1ResTime" : 8.0,
+    "pct2ResTime" : 10.0,
+    "pct3ResTime" : 21.98999999999978,
+    "throughput" : 334.3363423604146,
+    "receivedKBytesPerSec" : 60.65599141173521,
+    "sentKBytesPerSec" : 75.25832706452691
+  },
+  "/api/v1/wallet POST" : {
+    "transaction" : "/api/v1/wallet POST",
+    "sampleCount" : 5000,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 6.657400000000005,
+    "medianResTime" : 5.0,
+    "minResTime" : 2.0,
+    "maxResTime" : 262.0,
+    "pct1ResTime" : 9.0,
+    "pct2ResTime" : 12.0,
+    "pct3ResTime" : 40.0,
+    "throughput" : 167.45369905221204,
+    "receivedKBytesPerSec" : 31.034305245068488,
+    "sentKBytesPerSec" : 47.58693986737667
+  }
+}
