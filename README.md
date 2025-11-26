@@ -33,5 +33,7 @@ curl -X GET http://localhost:8080/api/v1/wallets/00000000-0000-0000-0000-0000000
 Конфигурация теста:
 - 10_000 запросов (пополам между двумя ручками)
 - время теста 30 секунд
+<img width="1641" height="619" alt="image" src="https://github.com/user-attachments/assets/372c3c8c-0ec9-47f5-8c58-aae496a7d96f" />
+
 
 
